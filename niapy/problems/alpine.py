@@ -90,7 +90,7 @@ class Alpine2(Problem):
         The function can be defined on any input domain but it is usually
         evaluated on the hypercube :math:`x_i ∈ [0, 10]`, for all :math:`i = 1, 2,..., D`.
 
-        **Global minimum:** :math:`f(x^*) = 2.808^D`, at :math:`x^* = (7.917,...,7.917)`
+        **Global maximum:** :math:`f(x^*) = 2.808^D`, at :math:`x^* = (7.917,...,7.917)`
 
     LaTeX formats:
         Inline:
