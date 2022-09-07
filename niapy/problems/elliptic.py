@@ -70,4 +70,4 @@ class Elliptic(Problem):
 
     def _evaluate(self, x):
         indices = np.arange(self.dimension)
-        return np.sum(1000000.0 ** (indices / (self.dimension - 1)) * x)
+        return np.sum(1000000.0 ** (indices / (self.dimension - 1)) * np.square(x))
