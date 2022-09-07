@@ -69,4 +69,4 @@ class Discus(Problem):
         return r'''$f(\textbf{x}) = x_1^2 10^6 + \sum_{i=2}^D x_i^2$'''
 
     def _evaluate(self, x):
-        return x[0] * 1000000 + np.sum(np.square(x[1:]))
+        return x[0] ** 2 * 1000000 + np.sum(np.square(x[1:]))
